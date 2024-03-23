@@ -19,7 +19,7 @@ theme = 'lithium'
 
     [[menu.main]]
         name = "About"
-        url = "/about"
+        url = "/"
 
     [[menu.main]]
         name = "Posts"

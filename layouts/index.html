@@ -1,6 +1,23 @@
 {{ partial "header.html" . }}
 
 <main class="content" role="main">
+  <div class="info-card">
+    <img class="profile-pic"
+       src="{{ .Site.BaseURL }}images/personal-pic.jpeg"
+       alt="A portrait of Naveen M V"
+       width="200"
+       height="200"
+       >
+  </div>
+  <span class="material-symbols-outlined">
+    mail
+  </span>
+  <span class="material-symbols-outlined">
+    download
+    </span>
+  <div class="intro">
+    {{ .Content }}
+  </div>
 
   <div class="archive">
     {{ range (where site.RegularPages "Type" "in" site.Params.mainSections).GroupByDate "2006" }}
