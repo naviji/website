@@ -1,4 +1,27 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
-theme = 'ananke'
+title = 'Naveen M V'
+theme = 'lithium'
+
+[params]
+    [params.logo]
+    url = "logo.png"
+    width = 50
+    height = 50
+    alt = "Logo"
+
+    [params.icon]
+    url = "favicon.ico"
+
+    body_classes = "avenir bg-near-white"
+    post_content_classes = "serif"
+
+    [[menu.main]]
+    name = "About"
+    url = "/about/"
+    [[menu.main]]
+        name = "GitHub"
+        url = ""
+    [[menu.main]]
+        name = "Twitter"
+        url = ""
