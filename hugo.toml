@@ -5,23 +5,22 @@ theme = 'lithium'
 
 [params]
     [params.logo]
-    url = "logo.png"
-    width = 50
-    height = 50
-    alt = "Logo"
+        url = "logo.png"
+        width = 50
+        height = 50
+        alt = "Logo"
 
     [params.icon]
-    url = "favicon.ico"
+        url = "favicon.ico"
 
-    body_classes = "avenir bg-near-white"
-    post_content_classes = "serif"
+    [params.title]
+        name = "Naveen M V"
+
 
     [[menu.main]]
-    name = "About"
-    url = "/about/"
+        name = "About"
+        url = "/about"
+
     [[menu.main]]
-        name = "GitHub"
-        url = ""
-    [[menu.main]]
-        name = "Twitter"
-        url = ""
+        name = "Posts"
+        url = "/posts"
