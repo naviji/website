@@ -1,38 +1,36 @@
 {{ partial "header.html" . }}
 
 <main class="content" role="main">
-  <div class="info-card">
-    <img class="profile-pic"
-       src="{{ .Site.BaseURL }}images/personal-pic.jpeg"
-       alt="A portrait of Naveen M V"
-       width="200"
-       height="200"
-      >
+  <div class="info-card__container">
+    <div class="info-card">
+      <img class="profile-pic"
+        src="{{ .Site.BaseURL }}images/personal-pic.jpeg"
+        alt="A portrait of Naveen M V"
+        >
 
-    <div>
+      <div class="profile__links__container">
+        <div class="profile__links">
+          <i class="fi fi-rr-envelope"></i>
+          <a href="mailto:naveenmv7@gmail.com" target="_blank">naveenmv7@gmail.com</a>
+        </div>
 
-      <div>
-      <i class="fi fi-rr-envelope"></i>
-        naveenmv7@gmail.com
-      </div>
+        <div class="profile__links">
+          <i class="fi fi-rs-file-pdf"></i>
+          <a href="/files/naveen_mv_resume.pdf" target="_blank">Resume</a>
+        </div>
+        
+        <div class="profile__links">
+          <i class="fi fi-brands-linkedin"></i>
+          <a href="https://ch.linkedin.com/in/naveen-mv" target="_blank">naveenmv</a>
+        </div>
 
-      <div>
-        <i class="fi fi-rs-file-pdf"></i>
-        <span>Resume</span>
-      </div>
-      
-      <div>
-        <i class="fi fi-brands-linkedin"></i>
-        <span>naveenmv</span>
-      </div>
-
-      <div>
-        <i class="fi fi-brands-github"></i>
-        <span>naviji</span>
+        <div class="profile__links">
+          <i class="fi fi-brands-github"></i>
+          <a href="https://github.com/naviji" target="_blank">naviji</a>
+        </div>
       </div>
     </div>
   </div>
-
 
 
   <div class="archive">

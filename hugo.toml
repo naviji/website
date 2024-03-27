@@ -15,12 +15,3 @@ theme = 'lithium'
 
     [params.title]
         name = "Naveen M V"
-
-
-    [[menu.main]]
-        name = "About"
-        url = "/"
-
-    [[menu.main]]
-        name = "Posts"
-        url = "/posts"
