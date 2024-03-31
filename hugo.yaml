@@ -1,0 +1,15 @@
+baseURL: 'https://naviji.github.io/website/'
+languageCode: 'en-us'
+title: 'Naveen M. V.'
+theme: 'lithium'
+
+params:
+  logo:
+    url: "logo.png"
+    width: 50
+    height: 50
+    alt: "Logo"
+  icon:
+    url: "favicon.ico"
+  title:
+    name: "Naveen M V"
