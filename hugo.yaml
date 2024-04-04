@@ -13,3 +13,6 @@ params:
     url: "favicon.ico"
   title:
     name: "Naveen M V"
+  mainSections:
+    - post
+
